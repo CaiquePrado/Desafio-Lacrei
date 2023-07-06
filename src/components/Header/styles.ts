@@ -43,7 +43,7 @@ const BaseNavLink = styled(NavLink)`
   cursor: pointer;
   transition: all 0.2s ease 0s;
   &.active {
-    color: ${(props) => props.theme.green};
+    color: ${(props) => props.theme["green-300"]};
   }
 
   &:hover {
@@ -52,7 +52,7 @@ const BaseNavLink = styled(NavLink)`
 `;
 
 export const Title = styled(BaseNavLink)`
-  color: ${(props) => props.theme.green};
+  color: ${(props) => props.theme["green-300"]};
   font-size: 2rem;
 `;
 

@@ -90,15 +90,15 @@ export const ButtonContainer = styled.div`
   }
 
   a:first-child {
-    background-color: ${(props) => props.theme.green};
+    background-color: ${(props) => props.theme["green-300"]};
     color: ${(props) => props.theme.white};
     color: white;
     padding: 0.75rem 2rem;
   }
 
   a:last-child {
-    border: 2px solid ${(props) => props.theme.green};
-    color: ${(props) => props.theme.green};
+    border: 2px solid ${(props) => props.theme["green-300"]};
+    color: ${(props) => props.theme["green-300"]};
     padding: 0.625rem 2.75rem;
   }
 `;

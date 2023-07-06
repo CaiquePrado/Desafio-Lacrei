@@ -44,7 +44,7 @@ export const ProfessionalContainer = styled.main`
       font-size: 1.5rem;
       padding-left: 1rem;
       color: ${(props) => props.theme["gray-100"]};
-      border-left: 5px solid ${(props) => props.theme.green};
+      border-left: 5px solid ${(props) => props.theme["green-300"]};
       line-height: 2rem;
 
       @media (max-width: 1040px) {
